@@ -1,0 +1,9 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="HighlightUsagesInFile">
+        <abbreviation name="highlight usage" />
+      </action>
+    </abbreviations>
+  </component>
+</application>

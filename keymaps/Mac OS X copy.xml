@@ -1,0 +1,8 @@
+<keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+</keymap>

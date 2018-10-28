@@ -1,0 +1,61 @@
+<templateSet group="Python">
+  <template name="timeit" value="result = repeat('Solution.f(3)',&#10;                setup='from __main__ import Solution',&#10;                repeat=3, number=1000000)&#10;print(f'{sum(result)/ len(result):.4f}')" description="timeit test by repeat" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="repeat" value="from timeit import repeat&#10;" description="call timeit repeat" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="init" value="def __init__(self$V1$):" description="define __init__" toReformat="false" toShortenFQNames="true">
+    <variable name="V1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="_str" value="def __str__(self):&#10;    " description="define __str__" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="_repr" value="def __repr__(self):&#10;    " description="define __repr__" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="ifmain" value="if __name__ == '__main__':&#10;    $END$" description="if __name__ == '__main__'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="output" value="# &gt;&gt;&gt; " description="comment output" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="doctest" value="import doctest&#10;doctest.testmod(verbose=True)" description="execute doctest" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="timer_dx" value="from ZStandardLibrary.learn_time import time_spent&#10;" description="Simple Timer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="Class" value="class $ClassName$($object$):" description="Create Class" toReformat="false" toShortenFQNames="true">
+    <variable name="ClassName" expression="pyClassName()" defaultValue="&quot;ClassName&quot;" alwaysStopAt="true" />
+    <variable name="object" expression="blockCommentStart()" defaultValue="&quot;object&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+      <option name="Python_Class" value="false" />
+    </context>
+  </template>
+  <template name="ds" value="&quot;&quot;&quot;" description="Docstring" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
