@@ -9,7 +9,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="init" value="def __init__(self$V1$):" description="define __init__" toReformat="false" toShortenFQNames="true">
+  <template name="_init" value="def __init__(self$V1$):" description="define __init__" toReformat="false" toShortenFQNames="true">
     <variable name="V1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
