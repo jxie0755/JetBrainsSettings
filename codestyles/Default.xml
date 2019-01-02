@@ -6,6 +6,9 @@
     </value>
   </option>
   <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
+  <MarkdownNavigatorCodeStyleSettings>
+    <option name="RIGHT_MARGIN" value="72" />
+  </MarkdownNavigatorCodeStyleSettings>
   <Python>
     <option name="BLANK_LINE_AT_FILE_END" value="false" />
   </Python>
