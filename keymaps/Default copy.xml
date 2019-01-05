@@ -2,6 +2,9 @@
   <action id="$Cut">
     <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="shift insert" />
+  </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="alt 4" />
   </action>
@@ -57,6 +60,10 @@
   </action>
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="alt close_bracket" />
+  </action>
+  <action id="EditorPasteSimple">
+    <keyboard-shortcut first-keystroke="shift ctrl alt v" />
+    <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
   <action id="EditorPreviousWord">
     <keyboard-shortcut first-keystroke="alt open_bracket" />
