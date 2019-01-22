@@ -4,7 +4,7 @@
     <property name="created">2017-10-23T20:56:41</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2017.1.4.0.0</property>
-    <property name="modified">2019-01-22T08:51:42</property>
+    <property name="modified">2019-01-22T09:39:26</property>
     <property name="originalScheme">Darcula light 2</property>
   </metaInfo>
   <option name="LINE_SPACING" value="0.9" />
@@ -19,9 +19,23 @@
     <option name="INDENT_GUIDE" value="424242" />
   </colors>
   <attributes>
+    <option name="BRACKET_ATTR">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="fffc5c" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="CONSOLE_NORMAL_OUTPUT">
       <value>
         <option name="FOREGROUND" value="4ebb70" />
+      </value>
+    </option>
+    <option name="DOUBLE_QUOTE_ATTR">
+      <value>
+        <option name="FOREGROUND" value="1d22b4" />
+        <option name="BACKGROUND" value="ffdd00" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="ERRORS_ATTRIBUTES">
@@ -36,6 +50,13 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="FOREGROUND" value="62a2" />
+      </value>
+    </option>
+    <option name="PARENTHESIS_ATTR">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="5bcfff" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="PY.BUILTIN_NAME">
