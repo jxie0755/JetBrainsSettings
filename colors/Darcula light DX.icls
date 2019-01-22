@@ -4,15 +4,15 @@
     <property name="created">2017-10-23T20:56:41</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2017.1.4.0.0</property>
-    <property name="modified">2018-11-02T00:00:51</property>
+    <property name="modified">2019-01-22T08:51:42</property>
     <property name="originalScheme">Darcula light 2</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="13" />
+  <option name="LINE_SPACING" value="0.9" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
   <option name="CONSOLE_FONT_NAME" value="Source Code Pro" />
-  <option name="CONSOLE_FONT_SIZE" value="14" />
   <option name="CONSOLE_LIGATURES" value="true" />
+  <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <colors>
     <option name="CARET_COLOR" value="f9ae58" />
     <option name="CONSOLE_BACKGROUND_KEY" value="252525" />
