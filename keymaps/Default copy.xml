@@ -93,6 +93,9 @@
   <action id="Profiler">
     <keyboard-shortcut first-keystroke="shift ctrl f9" />
   </action>
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
   <action id="Resume">
     <keyboard-shortcut first-keystroke="ctrl f9" />
   </action>
@@ -103,6 +106,9 @@
     <keyboard-shortcut first-keystroke="alt f9" />
   </action>
   <action id="RunToCursor" />
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="alt comma" />
   </action>
@@ -120,6 +126,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl f11" />
   </action>
   <action id="Unwrap" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
   <action id="ViewToolButtons">
     <keyboard-shortcut first-keystroke="alt 9" />
   </action>
